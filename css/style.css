@@ -1,3 +1,6 @@
 header{
     background-image: url('../assets/images/background-pattern-desktop.svg');
 }
+body{
+    background-color: var(--purple-600);
+}
