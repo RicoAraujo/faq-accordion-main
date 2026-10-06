@@ -21,10 +21,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
-    margin: 4rem auto;
+    margin: -11rem auto 10rem auto;
     padding: 24px;
     max-width: 600px;
+    
+   
+    
 }
 
 .question span{
@@ -34,7 +36,25 @@ body{
 
 .faqTitle{
     display: flex;
+    align-self: flex-start;
+    gap: 1rem;
     align-items: center;
-    justify-content:flex-start;
+    padding-left: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
    
 }
+
+
+
+.plusIcon{
+
+    
+    position: relative;
+    bottom:1px;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    float: right;
+}
+
