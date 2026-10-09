@@ -1,6 +1,4 @@
-
-
-header{
+header {
     background-image: url('../assets/images/background-pattern-desktop.svg');
     margin: 0;
     padding: 0;
@@ -8,11 +6,12 @@ header{
     height: 350px;
 
 }
-body{
+
+body {
     background-color: var(--purple-100);
 }
 
-.faq{
+.faq {
 
     background-color: var(--white);
     box-sizing: border-box;
@@ -24,17 +23,17 @@ body{
     margin: -11rem auto 10rem auto;
     padding: 24px;
     max-width: 600px;
-    
-   
-    
+
+
+
 }
 
-.question span{
+.question span {
     font-weight: bold;
 }
 
 
-.faqTitle{
+.faqTitle {
     display: flex;
     align-self: flex-start;
     gap: 1rem;
@@ -42,19 +41,45 @@ body{
     padding-left: 1rem;
     font-weight: 700;
     font-size: 1.5rem;
-   
+
+}
+
+.questionButton {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    cursor: pointer;
 }
 
 
 
-.plusIcon{
-
-    
-    position: relative;
-    bottom:1px;
-    width: 2rem;
-    height: 2rem;
+span:hover {
+    color: rgb(167, 3, 167);
     cursor: pointer;
-    float: right;
+}
+
+.answer, .minusIcon{
+    display: none;
+    padding: 0%.5rem 1rem 0.5rem 1rem;
+
+}
+
+.showAnswer,
+.question .plusIcon,
+.question.openAnswer .minusIcon
+{
+    display: block;
+
+}
+
+.openAnswer .plusIcon,
+.question.openAnswer .plusIcon,
+.question .minusIcon 
+ {
+    display: none;
 }
 
