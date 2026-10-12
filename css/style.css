@@ -54,11 +54,11 @@ body {
     width: 100%;
     padding: 0.3rem 1rem;
     cursor: pointer;
-    transition: ease-in-out(0.3s);
+
 }
 
-.blockQuestions{
-    padding: 10px 12px; 
+.blockQuestions {
+    padding: 10px 12px;
 }
 
 span:hover {
@@ -66,16 +66,20 @@ span:hover {
     cursor: pointer;
 }
 
-.answer{
-    padding: 0.4rem 0.9rem;
+.answer {
+    padding: 0.2rem 0.4rem;
     font-size: 0.9rem;
     color: var(--grey-100);
     font-weight: 400;
-    
-    
+    transition: ease-in-out 0.3s;
+
+
+    max-height: 0px;
+    overflow: hidden;
 }
 
-.answer, .minusIcon{
+/* .answer */
+.minusIcon {
     display: none;
     padding: 0%.5rem 1rem 0.5rem 1rem;
 
@@ -83,16 +87,17 @@ span:hover {
 
 .showAnswer,
 .question .plusIcon,
-.question.openAnswer .minusIcon
-{
+.question.openAnswer .minusIcon {
     display: block;
-    
+
 }
 
 .openAnswer .plusIcon,
 .question.openAnswer .plusIcon,
-.question .minusIcon 
- {
+.question .minusIcon {
     display: none;
 }
 
+.showAnswer {
+    max-height: 100px;
+}
