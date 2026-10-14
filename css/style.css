@@ -4,7 +4,6 @@ header {
     padding: 0;
     max-width: 100%;
     height: 350px;
-
 }
 
 body {
@@ -18,14 +17,9 @@ body {
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    /* align-items: space-between;
-    justify-content: space-between; */
     margin: -11rem auto 10rem auto;
     padding: 10px 5px;
     max-width: 600px;
-
-
-
 }
 
 .question span {
@@ -78,7 +72,7 @@ span:hover {
     overflow: hidden;
 }
 
-/* .answer */
+
 .minusIcon {
     display: none;
     padding: 0%.5rem 1rem 0.5rem 1rem;
@@ -99,5 +93,5 @@ span:hover {
 }
 
 .showAnswer {
-    max-height: 100px;
+    max-height: 320px;
 }
