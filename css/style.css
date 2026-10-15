@@ -87,8 +87,8 @@ span:hover {
 }
 
 .openAnswer .plusIcon,
-.question.openAnswer .plusIcon,
-.question .minusIcon {
+.question .minusIcon,
+.question.openAnswer .plusIcon {
     display: none;
 }
 
