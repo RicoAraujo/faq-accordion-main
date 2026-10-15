@@ -10,7 +10,7 @@
 // Veja os estados de foco e de passar o cursor para todos os elementos interativos na página.
 
 const questions = document.querySelectorAll('.question');
-const openAnswers = document.querySelectorAll('.openAnswer');
+
 
 // console.log(questions);
 questions.forEach((question) => {

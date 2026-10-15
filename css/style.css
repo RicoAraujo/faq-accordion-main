@@ -75,7 +75,7 @@ span:hover {
 
 .minusIcon {
     display: none;
-    padding: 0%.5rem 1rem 0.5rem 1rem;
+ 
 
 }
 
@@ -93,5 +93,5 @@ span:hover {
 }
 
 .showAnswer {
-    max-height: 320px;
+    max-height: 21.9rem;
 }
